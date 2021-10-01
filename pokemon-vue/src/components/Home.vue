@@ -76,22 +76,20 @@
         subsidiária da japonesa Pokémon Co., passou a supervisionar todas as
         licenças de Pokémon fora da Ásia. Até 2013, a franquia de Pokémon
         acumulou ¥4 trilhões ao redor do mundo[9] (equivalente a US$ 40,98
-        bilhões)
+        bilhões).
       </p>
     </div>
 
     <v-footer dark padless>
       <v-card class="flex" flat tile>
         <v-card-title class="red">
-          <strong class="subheading"
-            >Get connected with us on social networks!</strong
-          >
+          <h5><a class="link">Clique aqui</a> para informações de contato</h5>
 
           <v-spacer></v-spacer>
         </v-card-title>
 
         <v-card-text class="py-2 white--text text-center">
-          {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+          {{ new Date().getFullYear() }} — <strong>Fortal - CE</strong>
         </v-card-text>
       </v-card>
     </v-footer>
@@ -144,5 +142,8 @@ export default {
 }
 .p {
   margin-top: 15px;
+}
+.link{
+  text-decoration: blue;
 }
 </style>
