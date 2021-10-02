@@ -1,19 +1,19 @@
 <template>
   <div id="app">
     <main>
-      <Home />
+      <TopBar />
       <router-view />
     </main>
   </div>
 </template>
 
 <script>
-import Home from "./components/Home.vue";
+import TopBar from "./components/TopBar.vue";
 
 export default {
   name: "App",
   components: {
-    Home,
+    TopBar,
   },
 };
 </script>
